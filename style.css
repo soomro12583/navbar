@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navebar{
+    width: 80%;
+    height: 50px;
+    
+    margin: 20px auto;
+}
+
+.navebar ul{
+    list-style-type: none;
+}
+
+.navebar ul li{
+    float: left;
+    width: 216px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.navebar ul li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 50px;
+    display: block;
+    background-color: black;
+}
+
+.navebar ul li ul li{
+    background-color: #000;
+    border: none;
+    display: none;
+}
+
+.navebar ul li:hover ul li
+{
+    display: block;
+}
+
+.navebar ul li a:hover
+{
+    background-color: aqua;
+    color: black;
+}
